@@ -28,6 +28,12 @@ python manage.py runserver
 
 The API will be available at `http://127.0.0.1:8000/api/tasks/`.
 
+## API Documentation & Testing
+Swagger UI is enabled for interactive API documentation and testing.
+
+URL:
+http://127.0.0.1:8000/swagger/
+
 ## Running Tests
 
 Execute unit tests:
