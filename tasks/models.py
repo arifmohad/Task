@@ -5,6 +5,7 @@ class Task(models.Model):
         ('Pending', 'Pending'),
         ('Completed', 'Completed'),
     ]
+
     title = models.CharField(max_length=255)
     status = models.CharField(max_length=50, choices=STATUS_CHOICES, default='Pending')
     created_at = models.DateTimeField(auto_now_add=True)
